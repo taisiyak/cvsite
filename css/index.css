@@ -3,8 +3,13 @@
 * {
 	margin: 0;
     padding: 0;
+    /* max-width: 1366px; */
 }
 
+body {
+    max-width: 1366px;
+    margin: auto;
+}
 nav div {
     background-color: #182030;
     height: 70px;
@@ -20,7 +25,7 @@ nav div {
 
 .main-menu-item a {
     color: #FFD195;
-    padding: 0 50px 0 0;
+    padding: 0 40px 0 0;
     align-self: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
