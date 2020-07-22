@@ -8,30 +8,36 @@
 </head>
 <body>
     <header>
-        <!-- Navigation container -->
+        <!-- navigation container -->
         <nav>
-            <a href="index.html#general">General</a>
-            <a href="index.html#experience">Experience</a>
-            <a href="index.html#skills">Skills</a>
-            <a href="index.html#education">Education</a>
-            <a href="index.html#certification">Certification</a>
-            <a href="index.html#contacts">Contacts</a>
+            <div>
+                <ul class="main-menu">
+                    <li class="main-menu-item"><a href="index.html#general">General</a></li>
+                    <li class="main-menu-item"><a href="index.html#experience">Experience</a></li>
+                    <li class="main-menu-item"><a href="index.html#skills">Skills</a></li>
+                    <li class="main-menu-item"><a href="index.html#education">Education</a></li>
+                    <li class="main-menu-item"><a href="index.html#certification">Certification</a></li>
+                    <li class="main-menu-item"><a href="index.html#contacts">Contacts</a></li>
+                </ul>
+            </div> 
         </nav>
-    </header>
-    <main>
         <!-- general information container -->
-        <section id="general">
-            <div class="general-container">
+        <div id="general" class="general-container">
+            <div class="general-info">       
                 <h1 class="general-my-name">Taisiia Kolienchenko</h1>
                 <p class="general-my-role">Manual QA Engineer</p>
-                <img src="images/taya-ava-forcv.jpg" alt="Taisiia main photo" width="400">
                 <p class="general-profile-description">With more than five years of experience in testing, I managed to work on a lot of different projects. I have practical knowledge and skills in manual testing. Also, I have successfully tested and implemented a project into the work process. Experience of managing a small QA team of six people.
                 </p>
-                <span>
-                    <a href="documents/cv-taisiia-kolienchenko.pdf" download>Download CV in PDF</a>
-                </span>
-            </div>           
-        </section>
+            </div>
+            <div class="general-photo">
+                <img src="images/taya-ava-forcv.jpg" alt="Taisiia main photo">
+            </div>
+            <div class="download-button-nav">
+                <a href="documents/cv-taisiia-kolienchenko.pdf" download>Download CV in PDF</a>
+            </div>
+        </div>           
+    </header>
+    <main>
         <!-- work experience container -->
         <section id="experience">
             <div class="workexperience-container">

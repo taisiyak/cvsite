@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+nav div {
+    background-color: #182030;
+    height: 70px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+}
+
+.main-menu-item a {
+    color: #FFD195;
+    padding: 0 50px 0 0;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main-menu-item :hover {
+    color: #434a63;
+    font-size: 24px;
+}
+
+.general-container {
+    background-image: url(../images/back-image.jpg);
+    background-size: cover;
+    height: 698px;
+    display: flex;
+    justify-content: center;
+    order: 1 0 2;
+}
+
+.general-photo {
+    width: 500;
+    order:0;
+    padding: 50px;
+}
+
+.general-photo img {
+    width: 500px;
+}
+
+.general-info {
+    order: 1;
+    padding-right: 50px;
+}
+
+.general-my-name {
+    color: #FFD195;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.general-my-role {
+    color: #FFD195;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.general-profile-description {
+    color: #FFD195;
+    width: 634px;
+    height: 268px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 150px;
+}
+
+.download-button-nav {
+    background-color: #FFD195;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.download-button-nav a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #182030;
+    text-decoration: none;
+}
