@@ -3,27 +3,33 @@
 * {
 	margin: 0;
     padding: 0;
-    /* max-width: 1366px; */
 }
 
 body {
-    max-width: 1366px;
+    max-width: 1200px;
     margin: auto;
 }
-nav div {
-    background-color: #182030;
-    height: 70px;
+
+/* navigation */
+
+.bg-light {
+    background-color: #182030!important;
 }
 
-.main-menu {
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    height: 70px;
 }
 
-.main-menu-item a {
+.navbar-light .nav-item .nav-link {
     color: #FFD195;
     padding: 0 40px 0 0;
     align-self: center;
@@ -32,24 +38,35 @@ nav div {
     text-decoration: none;
 }
 
-.main-menu-item :hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #434a63;
     font-size: 24px;
 }
+
+.navbar-toggler {
+    background-color: #FFD195;
+}
+
+.navbar-light .navbar-toggler {
+    color: #182030;
+    border-color: #182030;
+}
+
+/* general info */
 
 .general-container {
     background-image: url(../images/back-image.jpg);
     background-size: cover;
     height: 698px;
-    display: flex;
-    justify-content: center;
-    order: 1 0 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
 .general-photo {
     width: 500;
-    order:0;
     padding: 50px;
+    grid-column: 1 / 1;
 }
 
 .general-photo img {
@@ -57,8 +74,14 @@ nav div {
 }
 
 .general-info {
-    order: 1;
     padding-right: 50px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.general-desc {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .general-my-name {
@@ -78,12 +101,12 @@ nav div {
 
 .general-profile-description {
     color: #FFD195;
-    width: 634px;
+    width: 534px;
     height: 268px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: justify;
-    padding-top: 150px;
+    padding-top: 10px;
 }
 
 .download-button-nav {
@@ -91,12 +114,81 @@ nav div {
     width: 350px;
     height: 50px;
     border-radius: 10px;
-    align-self: flex-end;
+    margin: 50px;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    padding: 0;
 }
 
-.download-button-nav a {
+.download-button-general {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #182030;
-    text-decoration: none;
+    margin: 65px;
+}
+
+
+
+/* Experience */
+.workexperience-container {
+    background-color: #FFD195;
+}
+
+.workexperience-container h2 {
+    color: #858EAD;
+}
+
+/* Skills */
+.skills-container {
+    background-color: #182030;
+}
+
+.skills-container h2 {
+    color: #FFD195;
+}
+
+/* Education */
+.education-container {
+    background-color: #FFD195;
+}
+
+.education-container h2 {
+    color: #858EAD;
+}
+
+/* Certification */
+.certification-container {
+    background-color: #182030;
+}
+
+.certification-container h2 {
+    color: #FFD195;
+}
+
+.w-100 {
+    width: 25%!important;
+}
+
+/* Contacts */
+.contacts-container {
+    background-color: #FFD195;
+}
+
+.contacts-container h2 {
+    color: #858EAD;
+}
+
+.download-button-cont {
+    background-color: #182030;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.download-button-cont a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FFD195;
+    margin: 65px;
 }
