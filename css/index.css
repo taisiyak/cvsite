@@ -27,20 +27,21 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
+    min-height: 70px;
 }
 
 .navbar-light .nav-item .nav-link {
     color: #FFD195;
-    padding: 0 40px 0 0;
     align-self: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-decoration: none;
+    text-align: end;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #434a63;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .navbar-toggler {
@@ -52,6 +53,12 @@ body {
     border-color: #182030;
 }
 
+.navbar-item-container {
+    width: 131px;
+    height: 36px;
+}
+
+
 /* general info */
 
 .general-container {
@@ -61,34 +68,33 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+
 }
 
 .general-photo {
-    width: 500;
-    padding: 50px;
+    width: 400px;
+    height: 267px;
     grid-column: 1 / 1;
+    align-self: center;
+    justify-self: center;
+    
 }
 
 .general-photo img {
-    width: 500px;
+    width: 400px;
 }
 
 .general-info {
-    padding-right: 50px;
     grid-column: 2;
     grid-row: 1;
-}
-
-.general-desc {
-    grid-column: 2;
-    grid-row: 2;
+    align-self: center;
+    justify-self: center;
 }
 
 .general-my-name {
     color: #FFD195;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding-top: 150px;
 }
 
 .general-my-role {
@@ -96,17 +102,21 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
-    padding-top: 10px;
 }
 
-.general-profile-description {
+.general-description {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.profile-description {
     color: #FFD195;
     width: 534px;
-    height: 268px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: justify;
-    padding-top: 10px;
 }
 
 .download-button-nav {
@@ -114,21 +124,26 @@ body {
     width: 350px;
     height: 50px;
     border-radius: 10px;
-    margin: 50px;
     grid-column: 1;
     grid-row: 2;
-    align-self: end;
-    padding: 0;
+    align-self: flex-end;
+    justify-self: center;
+    margin-bottom: 50px;
 }
 
 .download-button-general {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #182030;
-    margin: 65px;
+    line-height: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
-
+.download-button-general:hover {
+    color: lawngreen;
+    text-decoration: none;
+}
 
 /* Experience */
 .workexperience-container {
