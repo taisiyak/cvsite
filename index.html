@@ -168,9 +168,9 @@
                         <div class="timeline-image">
                             <h4>
                                 Be Part
-                                <br />
+                                <br/>
                                 Of Your
-                                <br />
+                                <br/>
                                 Story!
                             </h4>
                         </div>
@@ -181,31 +181,56 @@
         <!-- skills container -->
         <section id="skills">
             <div class="skills-container">
-                <h2>Skills</h2>
+                <div class="text-center">
+                    <h2>Skills</h2>
+                </div>
             </div>
         </section>
         <!-- education container -->
-        <section id="education">
+        <section class="page-section" id="education">
             <div class="education-container">
-                <h2>Education</h2>
-                <!-- institution 1 -->
-                <div>
-                    <h4 class="institution-name">National Research University of Electronic Technology (MIET)</h4> 
-                    <h4 class="speciality">Master's degree, Project Management</h4>
-                    <span class="period">September 2008 - June 2010 <span class="line">|</span> Moscow, Russian Federation</span>
+                <div class="text-center">
+                    <h2>Education</h2>
                 </div>
-                <!-- institution 2 -->
-                <div class="institution">
-                    <h4 class="institution-name">Yuriy Fedkovych Chernivtsi National University</h4>
-                    <h4 class="speciality">Bachelor's degree, Industrial Management</h4>
-                    <span class="period">September 2004 - June 2008 <span class="line">|</span> Chernivtsi, Ukraine</span>
-                </div>
+                <ul class="timeline">
+                    <!-- institution 1 -->
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="..." alt=""/>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="institution">
+                                    <h4><span class="institution-name">Research University of Electronic Technology (MIET)</span></h4>
+                                    <h4 class="speciality">Master's degree, Project Management</h4>
+                                    <span class="period">September 2008 - June 2010 <span class="line">|</span> Moscow, Russian Federation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- institution 2 -->
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="..." alt=""/>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="institution">
+                                    <h4><span class="institution-name">Yuriy Fedkovych Chernivtsi National University</span></h4>
+                                    <h4 class="speciality">Bachelor's degree, Industrial Management</h4>
+                                    <span class="period">September 2004 - June 2008 <span class="line">|</span> Chernivtsi, Ukraine</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
+        
         <!-- certification container -->
         <section id="certification">
             <div class="certification-container">
+            <div class="text-center">
                 <h2>Certification</h2>
+            </div>
                 <div id="certification-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#certification-carousel" data-slide-to="0" class="active"></li>
@@ -235,62 +260,69 @@
             </div>
         </section>
         <!-- contacts container -->
-        <section id="contacts">
+        <section id="contacts-section">
             <div class="contacts-container">
-                <h2>Contacts</h2>
-                <!-- My contacts container -->
-                <div>
-                    <p>My contacts</p>
-                    <div class="contacts">
-                        <h3 class="contacts-title">Contacts</h3>
+                <div class="text-center">
+                    <h2>Contacts</h2>
+                </div>
+                <div class="contacts-container-flex">
+                    <!-- My contacts container -->
+                    <div class="my-contacts-container">
                         <div>
-                            <span class="contacts-link-type">My page in</span>
-                            <a class="contacts-link" href="https://www.linkedin.com/in/taisiia-kolienchenko-a895ba128/"
-                                title="LinkedIn link" target="_blank">LinkedIn</a>
-                        </div>
-                        <div>
-                            <span class="contacts-link-type">Mobile:</span>
-                            <a class="contacts-link" href="tel:+380662699732" title="+380662699732"> +380662699732</a>
-                        </div>
-                        <div>
-                            <span class="contacts-link-type">E-mail:</span>
-                            <a class="contacts-link" href="mailto:kolentk@gmail.com" title="kolentk@gmail.com"> kolentk@gmail.com</a>
+                            <div class="contacts-title">
+                                <h3>My contacts</h3>
+                            </div>
+                            <div class="my-contacts-link">
+                                <div>
+                                    <span class="contacts-link-type">My page in</span>
+                                    <a class="contacts-link" href="https://www.linkedin.com/in/taisiia-kolienchenko-a895ba128/" title="LinkedIn link"
+                                        target="_blank">LinkedIn</a>
+                                </div>
+                                <div>
+                                    <span class="contacts-link-type">Mobile:</span>
+                                    <a class="contacts-link" href="tel:+380662699732" title="+380662699732"> +380662699732</a>
+                                </div>
+                                <div>
+                                    <span class="contacts-link-type">E-mail:</span>
+                                    <a class="contacts-link" href="mailto:kolentk@gmail.com" title="kolentk@gmail.com"> kolentk@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Write me container -->
-                <div>
-                    <p>Write me</p>
-                    <form action="https://formspree.io/mrgyrzkr" method="POST">
-                        <div>
-                            <div>
-                                <label>
-                                    Name:
-                                    <input name="user-name">
-                                </label>
-                            </div>
-                            <div>
-                                <label>
-                                    E-mail:
-                                    <input name="user-email">
-                                </label>
-                            </div>
-                            <div>
-                                <label>
-                                    Subject:
-                                    <input name="subject">
-                                </label>
-                            </div>
-                            <div>
-                                <label>Text
-                                    <textarea name="comment-text" rows="5" maxlength="255" placeholder="Text"></textarea>
-                                </label>
-                            </div>
+                    <!-- Write me container -->
+                    <div class="write-me-container">
+                        <div class="contacts-title">
+                            <h3>Write me</h3>
                         </div>
-                        <input type="submit">
-                    </form>
+                        <form action="https://formspree.io/mrgyrzkr" method="POST">
+                            <div class="wrm-field-container">
+                                <div>
+                                    <input class="wrm-name" name="user-name" placeholder="Name:">
+                                </div>
+                                <div>
+                                    <input class="wrm-email" name="user-email" placeholder="E-mail:">
+                                </div>
+                                <div>
+                                    <input class="wrm-subject" name="subject" placeholder="Subject:">
+                                </div>
+                                <div>
+                                    <textarea class="wrm-textarea" name="comment-text" rows="5" maxlength="255" placeholder="Text:"></textarea>
+                                </div>
+                            </div>
+                            <!-- <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlFile1">Example file input</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                            </form> -->
+                            <div class="btn-submit-container">
+                                <input class="btn-submit" type="submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
                 <br>
+                <!-- button download my cv -->
                 <div class="download-button-cont">
                     <a href="documents/cv-taisiia-kolienchenko.pdf" download>Download CV in PDF</a>
                 </div>
@@ -298,7 +330,9 @@
         </section>
     </main>
     <footer>
-        <p>TK2020</p>
+        <div class="footer-container">
+            <p class="footer-text">TK2020</p>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
