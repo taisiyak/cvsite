@@ -247,7 +247,7 @@ body {
     margin: 15px 0px;
 }
 
-.wrm-name, .wrm-email, .wrm-subject {
+.wrm-name {
     width: 300px;
     height: 30px;
     border-radius: 10px;
@@ -256,6 +256,33 @@ body {
     margin: 5px;
     padding: 5px;
 }
+/* .wrm-name:focus {
+  background-color: lightcoral;
+} */
+
+.wrm-email{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    border: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.wrm-subject {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    border: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
 
 .wrm-textarea {
     width: 300px;
@@ -274,6 +301,20 @@ body {
 }
 
 .btn-submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    border: 0px;
+}
+
+.btn-check-container {
+    text-align: end;
+    margin-right: 48px;
+    margin-top: 5px;
+}
+
+.btn-check {
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -304,6 +345,26 @@ body {
     color: #434a63;
     text-decoration: none;
 }
+
+/* button */
+/* .btn-download-button-cont {
+    background-color: #182030;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-left: 47px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #FFD195;
+    margin: 65px;
+}
+
+.btn-download-button-cont:hover {
+    color: #434a63;
+    text-decoration: none;
+} */
+
 
 /* footer */
 .footer-container {
@@ -492,10 +553,6 @@ body {
   }
 }
 
-
-
-
-
 /* from marathon */
 .position-title {
 	font-size: 16px;
@@ -560,8 +617,49 @@ body {
 }
 
 
+/* message */
 
+.alertmess .header {
+    background-color: #182030;
+    text-align: center;
+    color: #FFD195;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+}
 
+.text-area {
+  width: 30%;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -800px);
+  background-color: #FFD195;
+  color: #182030;
+  padding: 0px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+  text-align: center;
+  font-size: 15px;
+}
+
+.text-area.show {
+  transform: translate(-50%, 0);
+}
+
+.text-area .okbtn {
+  width: 60px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+
+}
 
 
 
