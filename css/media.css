@@ -1,0 +1,194 @@
+@media (max-width: 890px) {
+    
+/* general info 90%*/
+
+.general-container {
+    height: 601px;
+}
+
+.general-photo {
+    width: 360px;
+    height: 240px;
+}
+
+.general-photo img {
+    width: 360px;
+}
+
+.general-my-name {
+    font-size: 28px;
+}
+
+.general-my-role {
+    font-size: 18px;
+}
+
+.profile-description {
+    width: 360px;
+    font-size: 16px;
+}
+
+.general-btn {
+  margin-bottom: 25px;
+}
+
+.btn-download-button-gen {
+    width: 225px;
+    height: 36px;
+    border-radius: 10px;
+    line-height: 36px;
+    font-size: 16px; 
+}
+
+.btn-download-button-gen:hover {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 768px) {
+    
+/* general info 80%*/
+
+.general-container {
+    height: 534px;
+}
+
+.general-photo {
+    width: 320px;
+    height: 214px;
+}
+
+.general-photo img {
+    width: 320px;
+}
+
+.general-my-name {
+    font-size: 26px;
+}
+
+.general-my-role {
+    font-size: 16px;
+}
+
+.profile-description {
+    width: 320px;
+    font-size: 14px;
+}
+
+.general-btn {
+  margin-bottom: 19px;
+}
+
+.btn-download-button-gen {
+    width: 200px;
+    height: 32px;
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.btn-download-button-gen:hover {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 690px) {
+    
+/* general info 70%*/
+.general-container {
+    height: 468px;
+}
+
+.general-photo {
+    width: 280px;
+    height: 187px;
+}
+
+.general-photo img {
+    width: 280px;
+}
+
+.general-my-name {
+    font-size: 22px;
+}
+
+.general-my-role {
+    font-size: 14px;
+}
+
+.profile-description {
+    width: 280px;
+    font-size: 13px;
+}
+
+.general-btn {
+  margin-bottom: 13px;
+}
+
+.btn-download-button-gen {
+    width: 175px;
+    height: 28px;
+    border-radius: 7px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.btn-download-button-gen:hover {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 630px) {
+
+/* general info 70%*/
+
+.general-container {
+    grid-template-areas:
+      "general-photo"
+      "general-info"
+      "general-description"
+      "general-btn"
+}
+
+.general-my-name {
+    margin-top: 10px;
+}
+
+.profile-description {
+    width: 400px;
+}
+
+.btn-download-button-gen {
+    width: 150px;
+    height: 24px;
+    border-radius: 6px;
+    line-height: 24px;
+    font-size: 10px;
+}
+
+.btn-download-button-gen:hover {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 460px) {
+
+/* general info 60%*/
+
+.general-photo {
+    width: 240px;
+    height: 160px;
+}
+
+.general-photo img {
+    width: 240px;
+}
+
+.profile-description {
+    width: 260px;
+}
+
+.general-btn {
+  margin-bottom: 8px;
+}
+}

@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/media.css">
         <title>My CV</title>
     </head>
     <body>
@@ -65,10 +66,12 @@
                         implemented a project into the work process. Experience of managing a small QA team of six people.
                     </p>
                 </div>
-                <div class="download-button-nav">
-                    <a class="download-button-general" href="documents/cv-taisiia-kolienchenko.pdf" download>Download CV in PDF</a>
+                <div class="general-btn">
+                    <a href="documents/cv-taisiia-kolienchenko.pdf" download>
+                        <button id='bbtn' class="btn-download-button-gen">Download CV in PDF</button>
+                    </a>
                 </div>
-            </div>           
+            </div>            
         </header>
         <main>
             <!--work experience container -->
@@ -313,28 +316,22 @@
                                     <input class="btn-submit" type="submit">
                                 </div>
                             </form>
-                            <div class="btn-check-container">
-                                <button class="btn-check">Check</button>
-                            </div>
-                        </div>
                     </div>
                     <br>
-                    <!-- button download my cv -->
-                    <div class="download-button-cont">
-                        <a href="documents/cv-taisiia-kolienchenko.pdf" download>Download CV in PDF</a>
+                    <div>
+                        <a href="documents/cv-taisiia-kolienchenko.pdf" download>
+                            <button id='bbtn' class="btn-download-button-cont">Download CV in PDF</button>
+                        </a>
                     </div>
-                    <!-- <div>
-                        <button id='bbtn' class="btn-download-button-cont">Download CV in PDF</button>
-                    </div> -->
                 </div>          
             </section>
-            <div class="alertmess">
+            <!-- <div class="alertmess">
                 <div id="text-area" class="text-area">
                     <div class="alertmess header">Alert</div>
                     <h5>Fields Name, Email and Subject should not be empty</h5>
                     <button id="okbtn" class="okbtn">Ok</button>
                 </div>
-            </div>
+            </div> -->
         </main>
         <footer>
             <div class="footer-container">

@@ -2,7 +2,7 @@
 
 * {
 	margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 body {
@@ -37,25 +37,30 @@ body {
     font-size: 18px;
     text-decoration: none;
     text-align: end;
+    width: 110px;
+    height: 40px;
+    margin: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #434a63;
-    font-size: 22px;
+    font-size: 20px;
+    /* border: 2px solid #434a63; */
 }
 
 .navbar-toggler {
     background-color: #FFD195;
 }
 
-.navbar-light .navbar-toggler {
+/* .navbar-light .navbar-toggler {
     color: #182030;
     border-color: #182030;
-}
+} */
 
 .navbar-item-container {
-    width: 131px;
-    height: 36px;
+    width: 110px;
+    height: 40px;
+    padding: 0px;
 }
 
 
@@ -64,20 +69,20 @@ body {
 .general-container {
     background-image: url(../images/back-image.jpg);
     background-size: cover;
-    height: 698px;
+    height: 668px;
+    padding: 25px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-
+    grid-template-areas:
+      "general-photo general-info"
+      "general-btn general-description"      
 }
 
 .general-photo {
     width: 400px;
     height: 267px;
-    grid-column: 1 / 1;
     align-self: center;
     justify-self: center;
-    
+    grid-area: general-photo; 
 }
 
 .general-photo img {
@@ -85,10 +90,9 @@ body {
 }
 
 .general-info {
-    grid-column: 2;
-    grid-row: 1;
     align-self: center;
     justify-self: center;
+    grid-area: general-info;
 }
 
 .general-my-name {
@@ -105,10 +109,9 @@ body {
 }
 
 .general-description {
-    grid-column: 2;
-    grid-row: 2;
     align-self: flex-start;
     justify-self: center;
+    grid-area: general-description;
 }
 
 .profile-description {
@@ -119,30 +122,32 @@ body {
     text-align: justify;
 }
 
-.download-button-nav {
+.general-btn {
+  grid-area: general-btn;
+  align-self: flex-end;
+  justify-self: center;
+  margin-bottom: 30px;
+}
+
+.btn-download-button-gen {
     background-color: #FFD195;
-    width: 350px;
-    height: 50px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
-    grid-column: 1;
-    grid-row: 2;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #182030;
     align-self: flex-end;
     justify-self: center;
-    margin-bottom: 50px;
+ 
 }
 
-.download-button-general {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #182030;
-    line-height: 50px;
-    margin-left: 65px;
-    margin-right: 65px;
-}
-
-.download-button-general:hover {
+.btn-download-button-gen:hover {
     color: #434a63;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Experience */
@@ -175,6 +180,7 @@ body {
 /* Certification */
 .certification-container {
     background-color: #182030;
+    min-height: 500px;
 }
 
 .certification-container h2 {
@@ -308,62 +314,26 @@ body {
     border: 0px;
 }
 
-.btn-check-container {
-    text-align: end;
-    margin-right: 48px;
-    margin-top: 5px;
-}
-
-.btn-check {
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
-}
-
-
 /* download button */
 
-.download-button-cont {
+.btn-download-button-cont {
     background-color: #182030;
-    width: 350px;
-    height: 50px;
+    width: 250px;
+    height: 40px;
     border-radius: 10px;
-    line-height: 50px;
-    margin-left: 47px;
-}
-
-.download-button-cont a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #FFD195;
-    margin: 65px;
-}
-
-.download-button-cont a:hover {
-    color: #434a63;
-    text-decoration: none;
-}
-
-/* button */
-/* .btn-download-button-cont {
-    background-color: #182030;
-    width: 350px;
-    height: 50px;
-    border-radius: 10px;
-    line-height: 50px;
+    line-height: 40px;
     margin-left: 47px;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: #FFD195;
-    margin: 65px;
 }
 
 .btn-download-button-cont:hover {
     color: #434a63;
     text-decoration: none;
-} */
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 /* footer */
@@ -512,7 +482,7 @@ body {
     text-align: left;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
   }
@@ -532,8 +502,8 @@ body {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
-}
-@media (min-width: 1200px) {
+} */
+/* @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
   }
@@ -551,7 +521,7 @@ body {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
-}
+} */
 
 /* from marathon */
 .position-title {
@@ -618,7 +588,6 @@ body {
 
 
 /* message */
-
 .alertmess .header {
     background-color: #182030;
     text-align: center;
