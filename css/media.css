@@ -1,5 +1,4 @@
 @media (max-width: 890px) {
-    
 /* general info 90%*/
 .general-container {
     height: 601px;
@@ -28,7 +27,7 @@
 }
 
 .general-btn {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .btn-download-button-gen {
@@ -41,6 +40,15 @@
 
 .btn-download-button-gen:hover {
     font-size: 18px;
+}
+
+/* experience 80%*/
+.timeline .timeline-container {
+    width: 320px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container {
+    left: -359px;
 }
 }
 
@@ -89,6 +97,16 @@
 .btn-download-button-gen:hover {
     font-size: 16px;
 }
+
+/* experience 70*/
+.timeline .timeline-container {
+    width: 280px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container {
+    left: -319px;
+}
+
 }
 
 @media (max-width: 690px) {
@@ -121,7 +139,7 @@
 }
 
 .general-btn {
-  margin-bottom: 13px;
+    margin-bottom: 13px;
 }
 
 .btn-download-button-gen {
@@ -135,6 +153,16 @@
 .btn-download-button-gen:hover {
     font-size: 14px;
 }
+
+/* experience 70*/
+.timeline .timeline-container {
+    width: 240px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container {
+    left: -279px;
+}
+
 }
 
 @media (max-width: 630px) {
@@ -168,12 +196,46 @@
 .btn-download-button-gen:hover {
     font-size: 12px;
 }
+
+/* experience*/
+.timeline .tml-list .tml-list-item {
+    width: 4px;
+    margin-left: 20px;
+}
+ 
+.timeline .tml-list .tml-list-item::after {
+    width: 20px;
+    height: 20px;
+}
+
+.timeline .timeline-container {
+    width: 400px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(odd) .timeline-container {
+    left: 35px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container {
+    left: 35px;
+}
+ 
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #182030 transparent transparent;
+}
+}
+
+@media (max-width: 500px) {
+/* experience*/
+.timeline .timeline-container {
+    width: 360px;
+}
 }
 
 @media (max-width: 460px) {
-
 /* general info 60%*/
-
 .general-photo {
     width: 240px;
     height: 160px;
@@ -188,6 +250,11 @@
 }
 
 .general-btn {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+/* experience*/
+.timeline .timeline-container {
+    width: 320px;
 }
 }

@@ -6,120 +6,113 @@
 }
 
 body {
-    max-width: 980px;
-    margin: auto;
+  max-width: 980px;
+  margin: auto;
 }
 
 /* navigation */
 
 .bg-light {
-    background-color: #182030!important;
+  background-color: #182030!important;
 }
 
 .navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style-type: none;
-    min-height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  min-height: 70px;
 }
 
 .navbar-light .nav-item .nav-link {
-    color: #FFD195;
-    align-self: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: end;
-    width: 110px;
-    height: 40px;
-    margin: 0px;
+  color: #FFD195;
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: end;
+  width: 110px;
+  height: 40px;
+  margin: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #434a63;
-    font-size: 20px;
-    /* border: 2px solid #434a63; */
+  color: #434a63;
+  font-size: 20px;
 }
 
 .navbar-toggler {
-    background-color: #FFD195;
+  background-color: #FFD195;
 }
-
-/* .navbar-light .navbar-toggler {
-    color: #182030;
-    border-color: #182030;
-} */
 
 .navbar-item-container {
-    width: 110px;
-    height: 40px;
-    padding: 0px;
+  width: 110px;
+  height: 40px;
+  padding: 0px;
 }
-
 
 /* general info */
 
 .general-container {
-    background-image: url(../images/back-image.jpg);
-    background-size: cover;
-    height: 668px;
-    padding: 25px;
-    display: grid;
-    grid-template-areas:
-      "general-photo general-info"
-      "general-btn general-description"      
+  background-image: url(../images/back-image.jpg);
+  background-size: cover;
+  height: 668px;
+  padding: 25px;
+  display: grid;
+  grid-template-areas:
+    "general-photo general-info"
+    "general-btn general-description"      
 }
 
 .general-photo {
-    width: 400px;
-    height: 267px;
-    align-self: center;
-    justify-self: center;
-    grid-area: general-photo; 
+  width: 400px;
+  height: 267px;
+  align-self: center;
+  justify-self: center;
+  grid-area: general-photo; 
 }
 
 .general-photo img {
-    width: 400px;
+  width: 400px;
 }
 
 .general-info {
-    align-self: center;
-    justify-self: center;
-    grid-area: general-info;
+  align-self: center;
+  justify-self: center;
+  grid-area: general-info;
 }
 
 .general-my-name {
-    color: #FFD195;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  color: #FFD195;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .general-my-role {
-    color: #FFD195;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
+  color: #FFD195;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
 .general-description {
-    align-self: flex-start;
-    justify-self: center;
-    grid-area: general-description;
+  align-self: flex-start;
+  justify-self: center;
+  grid-area: general-description;
 }
 
 .profile-description {
-    color: #FFD195;
-    width: 400px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    text-align: justify;
+  color: #FFD195;
+  width: 400px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .general-btn {
@@ -130,32 +123,33 @@ body {
 }
 
 .btn-download-button-gen {
-    background-color: #FFD195;
-    width: 250px;
-    height: 40px;
-    border-radius: 10px;
-    line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #182030;
-    align-self: flex-end;
-    justify-self: center;
+  background-color: #FFD195;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #182030;
+  align-self: flex-end;
+  justify-self: center;
 }
 
 .btn-download-button-gen:hover {
-    color: #434a63;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+  color: #434a63;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Experience */
 .workexperience-container {
-    background-color: #FFD195;
+  background-color: #FFD195;
+  padding: 25px;
 }
 
 .workexperience-container h2 {
-    color: #858EAD;
+  color: #858EAD;
 }
 
 .position-title {
@@ -176,9 +170,11 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 }
+
 .line {
 	color: #a8a8a8;
 }
+
 .resp {
 	color: #e2e2e2;
   font-size: 14px;
@@ -252,28 +248,24 @@ body {
   border-color: transparent transparent transparent #182030;
 }
 
-
-
-
-
-
 /* Skills */
 .skills-container {
-    background-color: #182030;
+  background-color: #182030;
+  padding: 25px;
 }
 
 .skills-container h2 {
-    color: #FFD195;
+  color: #FFD195;
 }
 
 /* Education */
 .education-container {
-    background-color: #FFD195;
-    /* min-height: 1000px; */
+  background-color: #FFD195;
+  padding: 25px;
 }
 
 .education-container h2 {
-    color: #858EAD;
+  color: #858EAD;
 }
 
 
@@ -281,180 +273,175 @@ body {
 
 /* Certification */
 .certification-container {
-    background-color: #182030;
-    min-height: 500px;
+  background-color: #182030;
+  min-height: 500px;
+  padding: 25px;
 }
 
 .certification-container h2 {
-    color: #FFD195;
+  color: #FFD195;
 }
 
 .w-100 {
-    width: 25%!important;
+  width: 25%!important;
 }
 
 .carousel-inner img {
-    margin: auto;
+  margin: auto;
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 /* Contacts */
 .contacts-container {
-    background-color: #FFD195;
-    padding: 10px;
+  background-color: #FFD195;
+  padding: 10px;
 }
 
 .contacts-container h2 {
-    color: #858EAD;
+  color: #858EAD;
 }
 
 .contacts-container-flex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .contacts-title {
-    color: #FFD195;
-    font-size: 24px;
-    text-align: center;
-    margin: 5px;
+  color: #FFD195;
+  font-size: 24px;
+  text-align: center;
+  margin: 5px;
 }
 /* My contacts container */
 .my-contacts-container {
-    width: 396px;
-    height: 450px;
-    background-color: #182030;
-    margin: 15px 0px;
+  width: 396px;
+  height: 450px;
+  background-color: #182030;
+  margin: 15px 0px;
 }
 
 .my-contacts-link {
-    margin: 20px 40px;
+  margin: 20px 40px;
 }
 
 .contacts-link-type {
-    color: #FFD195;
+  color: #FFD195;
 }
 
 .write-me-container {
-    width: 396px;
-    height: 450px;
-    background-color: #182030;
-    margin: 15px 0px;
+  width: 396px;
+  height: 450px;
+  background-color: #182030;
+  margin: 15px 0px;
 }
 
 
 /* Write me container */
-.wrm-field-container{
-    text-align: center;
-    margin: 15px 0px;
+.wrm-field-container {
+  text-align: center;
+  margin: 15px 0px;
 }
 
 .wrm-name {
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
-    margin: 5px;
-    padding: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+  border: 0px;
+  margin: 5px;
+  padding: 5px;
 }
 /* .wrm-name:focus {
   background-color: lightcoral;
 } */
 
-.wrm-email{
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
-    margin: 5px;
-    padding: 5px;
+.wrm-email {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+  border: 0px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .wrm-subject {
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
-    margin: 5px;
-    padding: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+  border: 0px;
+  margin: 5px;
+  padding: 5px;
 }
 
-
-
 .wrm-textarea {
-    width: 300px;
-    height: 120px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
-    margin: 8px;
-    padding: 5px;
+  width: 300px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+  border: 0px;
+  margin: 8px;
+  padding: 5px;
 }
 
 .btn-submit-container {
-    text-align: end;
-    margin-right: 48px;
-    margin-top: 30px;
+  text-align: end;
+  margin-right: 48px;
+  margin-top: 30px;
 }
 
 .btn-submit {
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #C4C4C4;
-    border: 0px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+  border: 0px;
 }
 
 /* download button */
 
 .btn-download-button-cont {
-    background-color: #182030;
-    width: 250px;
-    height: 40px;
-    border-radius: 10px;
-    line-height: 40px;
-    margin-left: 47px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #FFD195;
+  background-color: #182030;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  line-height: 40px;
+  margin-left: 47px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #FFD195;
 }
 
 .btn-download-button-cont:hover {
-    color: #434a63;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+  color: #434a63;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 
 /* footer */
 .footer-container {
-    background-color: #182030;
-    min-height: 70px;
+  background-color: #182030;
+  min-height: 70px;
 }
 
 .footer-text {
-    color: #FFD195;
-    line-height: 70px;
-    text-align: center;
-    font-size: 20px;
+  color: #FFD195;
+  line-height: 70px;
+  text-align: center;
+  font-size: 20px;
 } 
 
 
 /* from marathon */
 
-.education-container {
-	margin-bottom: 55px;
-}
 .institution-name {
 	color: #ff6b08;
 	font-size: 16px;
@@ -478,15 +465,15 @@ body {
 
 /* message */
 .alertmess .header {
-    background-color: #182030;
-    text-align: center;
-    color: #FFD195;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    width: 100%;
+  background-color: #182030;
+  text-align: center;
+  color: #FFD195;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
 }
 
 .text-area {
