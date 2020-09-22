@@ -230,7 +230,7 @@
 @media (max-width: 500px) {
 /* experience*/
 .timeline .timeline-container {
-    width: 360px;
+    width: 340px;
 }
 }
 
@@ -254,7 +254,31 @@
 }
 
 /* experience*/
-.timeline .timeline-container {
-    width: 320px;
+
+.timeline .tml-list .tml-list-item {
+    width: 3px;
+    margin-left: 10px;
 }
+ 
+.timeline .tml-list .tml-list-item::after {
+    width: 15px;
+    height: 15px;
+}
+
+.timeline .timeline-container {
+    width: 260px;
+}
+
+.workexperience-container {
+    padding: 10px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(odd) .timeline-container {
+    left: 25px;
+}
+
+.timeline .tml-list .tml-list-item:nth-child(even) .timeline-container {
+    left: 25px;
+}
+
 }
