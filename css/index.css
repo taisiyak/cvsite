@@ -260,6 +260,7 @@ body {
 
 /* Education */
 .education-container {
+  min-height: 600px;
   background-color: #FFD195;
   padding: 25px;
 }
@@ -268,7 +269,67 @@ body {
   color: #858EAD;
 }
 
+.institution {
+  min-height: 230px;
+}
 
+.institution-img {
+  width: 330px;
+  float: left;
+}
+
+.institution-img img {
+  outline: 3px solid #182030;
+}
+
+.institution-info {
+  margin-left: 340px;
+  text-align: justify;
+}
+
+.institution-rev {
+  min-height: 230px;
+}
+
+.institution-img-rev {
+  width: 320px;
+  float: right;
+}
+
+.institution-img-rev img {
+  outline: 3px solid #182030;
+}
+
+.institution-info-rev {
+  text-align: end;
+  margin-right: 340px;
+}
+
+.institution-name {
+	color: #ff6b08;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+.speciality {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+  color: #182030;
+}
+
+.institution-period {
+	color: #747474;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.inst-line {
+	color: #747474;
+}
 
 
 /* Certification */
@@ -438,29 +499,6 @@ body {
   text-align: center;
   font-size: 20px;
 } 
-
-
-/* from marathon */
-
-.institution-name {
-	color: #ff6b08;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	margin-bottom: 15px;
-	margin-top: 10px;
-}
-
-.speciality {
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 24px;
-	margin-bottom: 14px;
-}
-
-.institution {
-	margin-top: 30px;
-}
 
 
 /* message */
